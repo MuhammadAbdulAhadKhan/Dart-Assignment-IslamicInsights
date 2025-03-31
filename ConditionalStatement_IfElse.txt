@@ -1,0 +1,21 @@
+// Assignment 03: ConditionalStatement_IfElse
+// Done By Muhammad Abdul Ahad Khan
+// Date 1-4-2025                   Time 2:00 AM
+
+void main() {
+  // Salah count value(replace this with any integer from 0 to 5)
+  int salahCount = 2; // I performed this number of prayers today
+
+  // Use if-else to check Salah performance
+  if (salahCount == 5) {
+    print("MashaAllah! You performed all five prayers today. Keep up the good work!");
+  } 
+  
+  else if (salahCount >= 1 && salahCount < 5) {
+    print("Great job! You performed $salahCount prayers today. Try to complete all five prayers.");
+  } 
+  
+  else {
+    print("Don't forget to pray. You missed all your prayers today, try to catch up tomorrow. If you don't, then Hell is waiting for you.");
+  }
+}
