@@ -1,0 +1,43 @@
+// Assignment 03: ConditionalStatement_IfElse
+// Done By Muhammad Abdul Ahad Khan
+// Date 1-4-2025                 Time 2:35 AM
+
+void main() {
+  
+  String day = 'Friday'; // koi sa bhi week day type karain
+
+  // Switch-case statement to provide an Islamic recommendation based on the day
+  switch (day.toLowerCase()) {
+      
+    case 'monday':
+      print("$day: It's a great day to fast and seek blessings.");
+      break;
+      
+    case 'tuesday':
+      print("$day: Remember to pray extra Nafl prayers today.");
+      break;
+      
+    case 'wednesday':
+      print("$day: Consider reading more Quran and offering extra prayers.");
+      break;
+      
+    case 'thursday':
+      print("$day: Fast if you can and engage in good deeds.");
+      break;
+      
+    case 'friday':
+      print("$day: Read Surah Al-Kahf, attend Jumu'ah prayer, and make dua.");
+      break;
+      
+    case 'saturday':
+      print("$day: A good day to reflect and increase your good deeds.");
+      break;
+      
+    case 'sunday':
+      print("$day: Relax, spend time with family, and engage in worship.");
+      break;
+      
+    default:
+      print("Invalid $day! Please enter a valid day of the week.");
+  }
+}
