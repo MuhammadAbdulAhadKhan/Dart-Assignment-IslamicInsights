@@ -1,0 +1,31 @@
+// Assignment 01: Dart Variables and Data Types
+// Done By Muhammad Abdul Ahad Khan
+// Date 1-4-2025                   Time 1:00 AM
+
+
+void main() {
+  print("Pillars of Islam");
+  
+  var total = 5;
+  
+  print("Total :   $total");
+  
+  String shahadah = "The declaration of faith that Allah is the sole God and Muhammad is his messenger ";
+  String salah = "The five daily prayers that Muslims are required to perform ";
+  String zakat = "The act of giving money to charity";
+  String sawm  = "The act of fasting, which is observed during the month of Ramadan";
+  String hajj  = "The pilgrimage to Mecca, which is a once-in-a-lifetime obligation for Muslims who are able";
+  
+  print("Shahadah : $shahadah");
+  print("Salah : $salah");
+  print("Zakat : $zakat");
+  print("Sawm : $sawm");
+  print("Hajj : $hajj");
+  
+  int allah_names = 99;
+
+  bool namazfarzhai = true;
+
+  print("Total Allah Names : $allah_names");
+  print("Namaz Farz Hai : $namazfarzhai");
+}
