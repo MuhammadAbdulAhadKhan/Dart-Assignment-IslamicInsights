@@ -1,0 +1,42 @@
+// Assignment 02: Arithmetic Operators
+// Done By Muhammad Abdul Ahad Khan
+// Date 8-4-2025          Time 2:25 AM
+
+void main() {
+  
+  print("WE MISS YOU RAMADAN \n");
+  
+  // nisab
+  print("Nisab");
+  double zakat = 2.5;
+  int wealth = 5498544900000;
+  double total = wealth * zakat / 100;
+
+  print("$total \n");
+
+  // for Sadaqah
+  print("Sadaqah");
+  int permeal = 1000;
+  int numberofpeople = 1000000000000000;
+  int amount = permeal * numberofpeople;
+
+  print("$amount \n");
+
+  // for fast
+  print("fasting missed");
+  int totaldays = 30;
+  int fast = 29;
+  int missedfast = totaldays - fast;
+
+  print("$missedfast \n");
+
+  //For  fidya
+
+  int missedfastdays = 18;
+  int fidyarate = 500;
+  int execute = fidyarate * missedfastdays; 
+
+  print("Fidya if i missed $missedfastdays fast ");
+
+  print(execute);
+}
